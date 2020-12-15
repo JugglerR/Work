@@ -1,647 +1,655 @@
-                                                                                                                                                      :root {
-                                                                                                                                                         font-size: 16px;
-                                                                                                                                                         font-family: Montserrat;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     body {
-                                                                                                                                                         margin: 0;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .nechto {
-                                                                                                                                                         width: 100%;
-                                                                                                                                                         margin: 0 auto;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .header {
-                                                                                                                                                         background-image: url("../images/backgroundheader.png");
-                                                                                                                                                         background-repeat: no-repeat;
-                                                                                                                                                         background-size: cover;
-                                                                                                                                                         width: 100%;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .header_content {
-                                                                                                                                                         padding: 531px 0 145px 0;
-                                                                                                                                                         color: white;
-                                                                                                                                                         box-sizing: border-box;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .sertiz {
-                                                                                                                                                         text-transform: uppercase;
-                                                                                                                                                         font-size: 3rem;
-                                                                                                                                                         padding-bottom: 16px;
-                                                                                                                                                         font-weight: 600;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .awesome_blah {
-                                                                                                                                                         font-size: 1.12rem;
-                                                                                                                                                         padding-bottom: 30px;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .we_make_blah {
-                                                                                                                                                         font-size: 3.37rem;
-                                                                                                                                                         width: 1200px;
-                                                                                                                                                         text-transform: uppercase;
-                                                                                                                                                         padding: 45px 30px;
-                                                                                                                                                         box-sizing: border-box;
-                                                                                                                                                         border: 1px solid white;
-                                                                                                                                                         background-color: hsla(0, 0%, 0%, 0.4);
-                                                                                                                                                         font-weight: 600;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .we_blah {
-                                                                                                                                                         display: inline-block;
-                                                                                                                                                         padding-right: 51px;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .yellow {
-                                                                                                                                                         color: #f1ad1d;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .container {
-                                                                                                                                                         width: 80%;
-                                                                                                                                                         margin: 0 auto;
-                                                                                                                                                         padding-top: 72px;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .padding_b {
-                                                                                                                                                         padding-bottom: 40px;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .backtoch {
-                                                                                                                                                         width: 100%;
-                                                                                                                                                         background-image: url(../images/back.png);
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .title>h3 {
-                                                                                                                                                         text-transform: uppercase;
-                                                                                                                                                         font-size: 1.375rem;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .title_line {
-                                                                                                                                                         width: 60px;
-                                                                                                                                                         border-bottom: 3px solid #F1AD1D;
-                                                                                                                                                         margin: 52px auto;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .title {
-                                                                                                                                                         text-align: center;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .title p {
-                                                                                                                                                         font-size: 0.95rem;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .img_rewards {
-                                                                                                                                                         display: block;
-                                                                                                                                                         text-align: center;
-                                                                                                                                                         margin-bottom: 5.525rem;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .navigation {
-                                                                                                                                                         display: flex;
-                                                                                                                                                         justify-content: space-between;
-                                                                                                                                                         border-bottom: 3px solid #F1B128;
-                                                                                                                                                         height: 4rem;
-                                                                                                                                                         margin-bottom: 126px;
-                                                                                                                                                         /* УДАЛИТЬ ВЫШЕ*/
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .navigation_left {
-                                                                                                                                                         text-transform: uppercase;
-                                                                                                                                                         font-size: 1.825rem;
-                                                                                                                                                         font-weight: 600;
-                                                                                                                                                         align-self: center;
-                                                                                                                                                         margin-bottom: 5px;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .navigation_right {
-                                                                                                                                                         display: flex;
-                                                                                                                                                         justify-content: space-between;
-                                                                                                                                                         font-size: 1.125rem;
-                                                                                                                                                         align-content: center;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .navigation_righ {
-                                                                                                                                                         margin: 0;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .navigation_right li {
-                                                                                                                                                         list-style-type: none;
-                                                                                                                                                         padding: 0 35px;
-                                                                                                                                                         text-transform: uppercase;
-                                                                                                                                                         font-size: 18px;
-                                                                                                                                                         padding-bottom: 10px
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .navigation_right li::after {
-                                                                                                                                                         content: "";
-                                                                                                                                                         width: 30px;
-                                                                                                                                                         height: 20px;
-                                                                                                                                                         background-image: url(../images/arrow.png);
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .navigation_right li:hover {
-                                                                                                                                                         color: #F1B128;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .business_consulting {
-                                                                                                                                                         display: grid;
-                                                                                                                                                         grid-template-columns: 1fr 1fr;
-                                                                                                                                                         padding-bottom: 124px;
-                                                                                                                                                         column-gap: 30px;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .business_consulting_img {
-                                                                                                                                                         display: grid;
-                                                                                                                                                         grid-template-columns: 1fr 1fr;
-                                                                                                                                                         grid-template-rows: 148px 148px;
-                                                                                                                                                         text-justify: auto;
-                                                                                                                                                         row-gap: 22px;
-                                                                                                                                                         column-gap: 30px;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .business_consulting_info {
-                                                                                                                                                         line-height: 19px;
-                                                                                                                                                         font-size: 0.800rem;
-                                                                                                                                                         text-align: justify;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .business_title {
-                                                                                                                                                         font-size: 1.125rem;
-                                                                                                                                                         text-transform: uppercase;
-                                                                                                                                                         font-weight: 700;
-                                                                                                                                                         margin-bottom: 20px;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .cover {
-                                                                                                                                                         background-size: cover;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .buisnes_img1 {
-                                                                                                                                                         background-image: url(../images/1.png);
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .buisnes_img2 {
-                                                                                                                                                         background-image: url(../images/2.png);
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .buisnes_img3 {
-                                                                                                                                                         background-image: url(../images/3.png);
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .buisnes_img4 {
-                                                                                                                                                         background-image: url(../images/4.png);
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .img_back {
-                                                                                                                                                         background-color: #333333;
-                                                                                                                                                         width: 110px;
-                                                                                                                                                         color: #ffffff;
-                                                                                                                                                         font-size: 0.800rem;
-                                                                                                                                                         padding: 15px 0;
-                                                                                                                                                         padding-left: 10px;
-                                                                                                                                                         margin-top: 90px;
-                                                                                                                                                         margin-left: 15px;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .button_check {
-                                                                                                                                                         margin-top: 40px;
-                                                                                                                                                         background-color: #f1ad1d;
-                                                                                                                                                         padding: 15px 10px;
-                                                                                                                                                         width: 176px;
-                                                                                                                                                         font-size: 14px;
-                                                                                                                                                         color: #ffffff;
-                                                                                                                                                         text-decoration: none;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .button_check:hover {
-                                                                                                                                                         color: black;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .btn_chek_div {
-                                                                                                                                                         margin-top: 30px;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .speed_title {
-                                                                                                                                                         color: #ffffff;
-                                                                                                                                                         font-size: 1.125rem;
-                                                                                                                                                         padding-top: 150px;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .team {
-                                                                                                                                                         display: grid;
-                                                                                                                                                         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-                                                                                                                                                         grid-template-rows: 178px 178px;
-                                                                                                                                                         text-justify: auto;
-                                                                                                                                                         gap: 2px;
-                                                                                                                                                         padding-bottom: 200px;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .team_img {
-                                                                                                                                                         background-size: cover;
-                                                                                                                                                         background-repeat: no-repeat;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .team_img1 {
-                                                                                                                                                         background-image: url(../images/team1.png);
-                                                                                                                                                         background-size: cover;
-                                                                                                                                                         background-repeat: no-repeat;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .team_img2 {
-                                                                                                                                                         background-image: url(../images/team2.png);
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .team_img3 {
-                                                                                                                                                         background-image: url(../images/team3.png);
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .team_img4 {
-                                                                                                                                                         background-image: url(../images/team4.png);
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .team_img5 {
-                                                                                                                                                         background-image: url(../images/team5.png);
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .team_img6 {
-                                                                                                                                                         background-image: url(../images/team6.png);
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .team_img7 {
-                                                                                                                                                         background-image: url(../images/team7.png);
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .team_img8 {
-                                                                                                                                                         background-image: url(../images/team8.png);
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .team_img9 {
-                                                                                                                                                         background-image: url(../images/team9.png);
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .team_img10 {
-                                                                                                                                                         background-image: url(../images/team10.png);
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .team_img11 {
-                                                                                                                                                         background-image: url(../images/team11.png);
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .team_img12 {
-                                                                                                                                                         background-image: url(../images/team12.png);
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .img_back_top {
-                                                                                                                                                         margin-top: 120px;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .border_info {
-                                                                                                                                                         padding: 18px 0;
-                                                                                                                                                         background-color: #333333;
-                                                                                                                                                         color: #ffffff;
-                                                                                                                                                         text-align: center;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .team_info {
-                                                                                                                                                         display: grid;
-                                                                                                                                                         grid-template-columns: 1fr 1fr 1fr 1fr;
-                                                                                                                                                         grid-template-rows: 56px 45px;
-                                                                                                                                                         column-gap: 35px;
-                                                                                                                                                         row-gap: 30px;
-                                                                                                                                                         padding-bottom: 100px;
-                                                                                                                                                         font-size: 1.125rem;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .little_img {
-                                                                                                                                                         background-image: url(../images/Lamp.png);
-                                                                                                                                                         background-repeat: no-repeat;
-                                                                                                                                                         width: 50px;
-                                                                                                                                                         height: 45px;
-                                                                                                                                                         margin: 0 auto;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .lamp {
-                                                                                                                                                         background-image: url(../images/Lamp.png);
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .cloud {
-                                                                                                                                                         background-image: url(../images/cloud.png);
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .rewards {
-                                                                                                                                                         background-image: url(../images/rewards.png);
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .radiation {
-                                                                                                                                                         background-image: url(../images/radiation.png);
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .team_info_text {
-                                                                                                                                                         font-size: 0.875rem;
-                                                                                                                                                         text-align: justify;
-                                                                                                                                                         text-align-last: center;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .hov_nav:hover {
-                                                                                                                                                         color: #f1ad1d;
-                                                                                                                                                         font-weight: 900;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .title_line_bottom {
-                                                                                                                                                         width: 60px;
-                                                                                                                                                         border-bottom: 3px solid #F1AD1D;
-                                                                                                                                                         margin: 15px auto;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .Team_info_title {
-                                                                                                                                                         font-size: 1.125rem;
-                                                                                                                                                         text-align: center;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .title_line_black {
-                                                                                                                                                         width: 270px;
-                                                                                                                                                         border-bottom: 3px solid #333333;
-                                                                                                                                                         margin: 52px auto;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .speed {
-                                                                                                                                                         background-image: url(../images/speed.png);
-                                                                                                                                                         height: 390px;
-                                                                                                                                                         background-size: cover;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .back_featured {
-                                                                                                                                                         background-image: url(../images/backpage3.png);
-                                                                                                                                                         height: 475px;
-                                                                                                                                                         background-size: cover;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .logo_featured {
-                                                                                                                                                         display: flex;
-                                                                                                                                                         justify-content: space-around;
-                                                                                                                                                         margin: 0 10%;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .coments {
-                                                                                                                                                         display: grid;
-                                                                                                                                                         grid-template-columns: 1fr 1fr 1fr;
-                                                                                                                                                         column-gap: 30px;
-                                                                                                                                                         padding-bottom: 200px;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .coments_border {
-                                                                                                                                                         border-left: none;
-                                                                                                                                                         border-right: none;
-                                                                                                                                                         border-top: 2px solid #F1AD1D;
-                                                                                                                                                         padding-left: 0;
-                                                                                                                                                         border-bottom: 2px solid #111111;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .coments_photo {
-                                                                                                                                                         display: grid;
-                                                                                                                                                         grid-template-columns: 56px 1fr;
-                                                                                                                                                         grid-template-rows: 44px;
-                                                                                                                                                         column-gap: 15px;
-                                                                                                                                                         margin-top: 15px;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .coment_texe {
-                                                                                                                                                         align-self: end;
-                                                                                                                                                         font-size: 0.875rem;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .com_text {
-                                                                                                                                                         font-weight: 700;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .button_subscribe {
-                                                                                                                                                         background-color: #F1AD1D;
-                                                                                                                                                         width: 170px;
-                                                                                                                                                         padding: 19px 45px;
-                                                                                                                                                         text-align: center;
-                                                                                                                                                         text-decoration: none;
-                                                                                                                                                         color: white;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .search_margin {
-                                                                                                                                                         margin-top: 19px;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .button_subscribe:hover {
-                                                                                                                                                         color: black;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .search {
-                                                                                                                                                         display: grid;
-                                                                                                                                                         grid-template-columns: 586px 170px;
-                                                                                                                                                         grid-template-rows: 57px;
-                                                                                                                                                         justify-content: center;
-                                                                                                                                                         padding-bottom: 177px;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .subscribe {
-                                                                                                                                                         width: 550px;
-                                                                                                                                                         height: 51px;
-                                                                                                                                                         padding-left: 30px;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .title_message {
-                                                                                                                                                         background-color: #333333;
-                                                                                                                                                         font-size: 1.125rem;
-                                                                                                                                                         width: 246px;
-                                                                                                                                                         padding: 22px 120px 18px 15px;
-                                                                                                                                                         color: white;
-                                                                                                                                                         font-weight: 700;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .title_contact {
-                                                                                                                                                         padding-right: 40px;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .form_message {
-                                                                                                                                                         width: 571px;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .disp_in_bl {
-                                                                                                                                                         display: inline-block;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .input_name {
-                                                                                                                                                         width: 270px;
-                                                                                                                                                         height: 39px;
-                                                                                                                                                         padding-left: 10px;
-                                                                                                                                                         box-sizing: border-box;
-                                                                                                                                                         font-style: italic;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .textarea_message {
-                                                                                                                                                         width: 560px;
-                                                                                                                                                         height: 172px;
-                                                                                                                                                         resize: none;
-                                                                                                                                                         padding-left: 10px;
-                                                                                                                                                         padding-top: 10px;
-                                                                                                                                                         box-sizing: border-box;
-                                                                                                                                                         font-style: italic;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .reset {
-                                                                                                                                                         padding: 16px 30px;
-                                                                                                                                                         text-decoration: none;
-                                                                                                                                                         color: white;
-                                                                                                                                                         font-weight: 700;
-                                                                                                                                                         font-size: 1.125rem;
-                                                                                                                                                         text-transform: uppercase;
-                                                                                                                                                         text-align: center;
-                                                                                                                                                         background-color: #F1AD1D;
-                                                                                                                                                     }
-                                                                                                                                                     /*  .button_reset {
-                                                                                                                                    background-color: #F1AD1D;
-                                                                                                                                    width: 145px;
-                                                                                                                                    height: 40px;
-                                                                                                                                    text-align: center;
-                                                                                                                                    padding-top: 15px;
-                                                                                                                                }*/
-                                                                                                                                                     
-                                                                                                                                                     .form_padding {
-                                                                                                                                                         margin-bottom: 17px;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .marg_bott {
-                                                                                                                                                         margin-bottom: 15px;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .reset_left {
-                                                                                                                                                         margin-left: 20px;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .back_little {
-                                                                                                                                                         width: 35px;
-                                                                                                                                                         height: 32px;
-                                                                                                                                                         background-color: #333333;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .padding_img {
-                                                                                                                                                         padding: 6px 11px;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .margin_right {
-                                                                                                                                                         margin-right: 229px;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .grid_contact {
-                                                                                                                                                         display: flex;
-                                                                                                                                                         justify-content: space-around;
-                                                                                                                                                         padding-bottom: 150px;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .margin_mess_top {
-                                                                                                                                                         margin-top: 50px;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .social {
-                                                                                                                                                         display: flex;
-                                                                                                                                                         justify-content: space-between;
-                                                                                                                                                         width: 301px;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .yel_little {
-                                                                                                                                                         width: 40px;
-                                                                                                                                                         height: 40px;
-                                                                                                                                                         background-color: #F1AD1D;
-                                                                                                                                                         margin-top: 34px;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .text-decor {
-                                                                                                                                                         text-decoration: none;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .img_social {
-                                                                                                                                                         padding: 11px 11px
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .color_aa {
-                                                                                                                                                         color: black;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .color_aa:hover {
-                                                                                                                                                         color: #F1AD1D;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .lefting {
-                                                                                                                                                         padding-left: 15px
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .back_saidbird {
-                                                                                                                                                         background-image: url(../images/saidbird.png);
-                                                                                                                                                         height: 485px;
-                                                                                                                                                         background-size: cover;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .tree {
-                                                                                                                                                         background-image: url(../images/Treeback.png);
-                                                                                                                                                         height: 400px;
-                                                                                                                                                         background-size: cover;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .div_buy {
-                                                                                                                                                         padding: 40px 0px;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .tree_tittle {
-                                                                                                                                                         color: #ffffff;
-                                                                                                                                                         font-size: 1.125rem;
-                                                                                                                                                         padding-top: 100px;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .bottm_nav {
-                                                                                                                                                         color: black;
-                                                                                                                                                         padding: 20px 40px;
-                                                                                                                                                         border: 1px solid #000000;
-                                                                                                                                                         text-decoration: none;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .bottm_nav:hover {
-                                                                                                                                                         background-color: black;
-                                                                                                                                                         color: #F1AD1D;
-                                                                                                                                                         ;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .foot_foot {
-                                                                                                                                                         margin-top: 20px;
-                                                                                                                                                         font-weight: 700;
-                                                                                                                                                         font-size: 20px;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .copy_foot {
-                                                                                                                                                         padding-top: 5px;
-                                                                                                                                                         padding-bottom: 40px;
-                                                                                                                                                         text-align: center;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .bottom_copy {
-                                                                                                                                                         width: 80%;
-                                                                                                                                                         margin: 0 auto;
-                                                                                                                                                         padding-top: 35px;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     .Lysenko {
-                                                                                                                                                         text-decoration: none;
-                                                                                                                                                         font-size: 20px;
-                                                                                                                                                         font-weight: 700;
-                                                                                                                                                         color: #F1AD1D;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     #buy {
-                                                                                                                                                         color: white;
-                                                                                                                                                         background-color: hsla(0, 0%, 48%, 0.4);
-                                                                                                                                                         border: 1px solid #ffffff;
-                                                                                                                                                         padding: 20px 40px;
-                                                                                                                                                         font-weight: 700;
-                                                                                                                                                     }
-                                                                                                                                                     
-                                                                                                                                                     #buy:hover {
-                                                                                                                                                         color: #F1AD1D;
-                                                                                                                                                         border: 1px solid #F1AD1D;
-                                                                                                                                                         background-color: hsla(46, 100%, 38%, 0.2);
-                                                                                                                                                     }
+                                           :root {
+                                              font-size: 16px;
+                                              font-family: Montserrat;
+                                          }
+                                          
+                                          body {
+                                              margin: 0;
+                                          }
+                                          
+                                          .nechto {
+                                              width: 1600px;
+                                              margin: 0 auto;
+                                          }
+                                          
+                                          .header {
+                                              background-image: url("../images/backgroundheader.png");
+                                              background-repeat: no-repeat;
+                                              background-size: cover;
+                                              width: 100%;
+                                          }
+                                          
+                                          .header_content {
+                                              padding: 531px 0 145px 0;
+                                              color: white;
+                                              box-sizing: border-box;
+                                          }
+                                          
+                                          .sertiz {
+                                              text-transform: uppercase;
+                                              font-size: 3rem;
+                                              padding-bottom: 16px;
+                                              font-weight: 600;
+                                          }
+                                          
+                                          .awesome_blah {
+                                              font-size: 1.12rem;
+                                              padding-bottom: 30px;
+                                          }
+                                          
+                                          .we_make_blah {
+                                              font-size: 3.37rem;
+                                              width: 1200px;
+                                              text-transform: uppercase;
+                                              padding: 45px 30px;
+                                              box-sizing: border-box;
+                                              border: 1px solid white;
+                                              background-color: hsla(0, 0%, 0%, 0.4);
+                                              font-weight: 600;
+                                          }
+                                          
+                                          .we_blah {
+                                              display: inline-block;
+                                              padding-right: 51px;
+                                          }
+                                          
+                                          .yellow {
+                                              color: #f1ad1d;
+                                          }
+                                          
+                                          .container {
+                                              width: 80%;
+                                              margin: 0 auto;
+                                              padding-top: 72px;
+                                          }
+                                          
+                                          .padding_b {
+                                              padding-bottom: 40px;
+                                          }
+                                          
+                                          .backtoch {
+                                              width: 100%;
+                                              background-image: url(../images/back.png);
+                                          }
+                                          
+                                          .title>h3 {
+                                              text-transform: uppercase;
+                                              font-size: 1.375rem;
+                                          }
+                                          
+                                          .title_line {
+                                              width: 60px;
+                                              border-bottom: 3px solid #F1AD1D;
+                                              margin: 52px auto;
+                                          }
+                                          
+                                          .title {
+                                              text-align: center;
+                                          }
+                                          
+                                          .title p {
+                                              font-size: 0.95rem;
+                                          }
+                                          
+                                          .img_rewards {
+                                              display: block;
+                                              text-align: center;
+                                              margin-bottom: 5.525rem;
+                                          }
+                                          
+                                          .navigation {
+                                              display: flex;
+                                              justify-content: space-between;
+                                              border-bottom: 3px solid #F1B128;
+                                              height: 4rem;
+                                              margin-bottom: 126px;
+                                              /* УДАЛИТЬ ВЫШЕ*/
+                                          }
+                                          
+                                          .navigation_left {
+                                              text-transform: uppercase;
+                                              font-size: 1.825rem;
+                                              font-weight: 600;
+                                              align-self: center;
+                                              margin-bottom: 5px;
+                                          }
+                                          
+                                          .navigation_right {
+                                              display: flex;
+                                              justify-content: space-between;
+                                              font-size: 1.125rem;
+                                              align-content: center;
+                                          }
+                                          
+                                          .navigation_righ {
+                                              margin: 0;
+                                          }
+                                          
+                                          .navigation_right li {
+                                              list-style-type: none;
+                                              padding: 0 35px;
+                                              text-transform: uppercase;
+                                              font-size: 18px;
+                                              padding-bottom: 10px
+                                          }
+                                          
+                                          .navigation_right li::after {
+                                              content: "";
+                                              width: 30px;
+                                              height: 20px;
+                                              background-image: url(../images/arrow.png);
+                                          }
+                                          
+                                          .navigation_right li:hover {
+                                              color: #F1B128;
+                                          }
+                                          
+                                          .business_consulting {
+                                              display: grid;
+                                              grid-template-columns: 1fr 1fr;
+                                              padding-bottom: 124px;
+                                              column-gap: 30px;
+                                          }
+                                          
+                                          .business_consulting_img {
+                                              display: grid;
+                                              grid-template-columns: 1fr 1fr;
+                                              grid-template-rows: 148px 148px;
+                                              text-justify: auto;
+                                              row-gap: 22px;
+                                              column-gap: 30px;
+                                          }
+                                          
+                                          .business_consulting_info {
+                                              line-height: 19px;
+                                              font-size: 0.800rem;
+                                              text-align: justify;
+                                          }
+                                          
+                                          .business_title {
+                                              font-size: 1.125rem;
+                                              text-transform: uppercase;
+                                              font-weight: 700;
+                                              margin-bottom: 20px;
+                                          }
+                                          
+                                          .cover {
+                                              background-size: cover;
+                                          }
+                                          
+                                          .buisnes_img1 {
+                                              background-image: url(../images/1.png);
+                                          }
+                                          
+                                          .buisnes_img2 {
+                                              background-image: url(../images/2.png);
+                                          }
+                                          
+                                          .buisnes_img3 {
+                                              background-image: url(../images/3.png);
+                                          }
+                                          
+                                          .buisnes_img4 {
+                                              background-image: url(../images/4.png);
+                                          }
+                                          
+                                          .img_back {
+                                              background-color: #333333;
+                                              width: 110px;
+                                              color: #ffffff;
+                                              font-size: 0.800rem;
+                                              padding: 15px 0;
+                                              padding-left: 10px;
+                                              margin-top: 90px;
+                                              margin-left: 15px;
+                                          }
+                                          
+                                          .button_check {
+                                              margin-top: 40px;
+                                              background-color: #f1ad1d;
+                                              padding: 15px 10px;
+                                              width: 176px;
+                                              font-size: 14px;
+                                              color: #ffffff;
+                                              text-decoration: none;
+                                          }
+                                          
+                                          .button_check:hover {
+                                              color: black;
+                                          }
+                                          
+                                          .btn_chek_div {
+                                              margin-top: 30px;
+                                          }
+                                          
+                                          .speed_title {
+                                              color: #ffffff;
+                                              font-size: 1.125rem;
+                                              padding-top: 150px;
+                                          }
+                                          
+                                          .team {
+                                              display: grid;
+                                              grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+                                              grid-template-rows: 178px 178px;
+                                              text-justify: auto;
+                                              gap: 2px;
+                                              padding-bottom: 200px;
+                                          }
+                                          
+                                          .team_img {
+                                              background-size: cover;
+                                              background-repeat: no-repeat;
+                                          }
+                                          
+                                          .team_img1 {
+                                              background-image: url(../images/team1.png);
+                                          }
+                                          
+                                          .team_img2 {
+                                              background-image: url(../images/team2.png);
+                                          }
+                                          
+                                          .team_img3 {
+                                              background-image: url(../images/team3.png);
+                                          }
+                                          
+                                          .team_img4 {
+                                              background-image: url(../images/team4.png);
+                                          }
+                                          
+                                          .team_img5 {
+                                              background-image: url(../images/team5.png);
+                                          }
+                                          
+                                          .team_img6 {
+                                              background-image: url(../images/team6.png);
+                                          }
+                                          
+                                          .team_img7 {
+                                              background-image: url(../images/team7.png);
+                                          }
+                                          
+                                          .team_img8 {
+                                              background-image: url(../images/team8.png);
+                                          }
+                                          
+                                          .team_img9 {
+                                              background-image: url(../images/team9.png);
+                                          }
+                                          
+                                          .team_img10 {
+                                              background-image: url(../images/team10.png);
+                                          }
+                                          
+                                          .team_img11 {
+                                              background-image: url(../images/team11.png);
+                                          }
+                                          
+                                          .team_img12 {
+                                              background-image: url(../images/team12.png);
+                                          }
+                                          
+                                          .img_back_top {
+                                              margin-top: 120px;
+                                          }
+                                          
+                                          .border_info {
+                                              padding: 18px 0;
+                                              background-color: #333333;
+                                              color: #ffffff;
+                                              text-align: center;
+                                              margin-bottom: 20px;
+                                          }
+                                          
+                                          .team_info {
+                                              display: grid;
+                                              grid-template-columns: 1fr 1fr 1fr 1fr;
+                                              grid-template-rows: 355px;
+                                              column-gap: 35px;
+                                              row-gap: 30px;
+                                              padding-bottom: 100px;
+                                              font-size: 1.125rem;
+                                          }
+                                          
+                                          .little_img {
+                                              background-image: url(../images/Lamp.png);
+                                              background-repeat: no-repeat;
+                                              width: 50px;
+                                              height: 45px;
+                                              margin: 0 auto;
+                                              margin-bottom: 20px;
+                                          }
+                                          
+                                          .lamp {
+                                              background-image: url(../images/Lamp.png);
+                                          }
+                                          
+                                          .cloud {
+                                              background-image: url(../images/cloud.png);
+                                          }
+                                          
+                                          .rewards {
+                                              background-image: url(../images/rewards.png);
+                                          }
+                                          
+                                          .radiation {
+                                              background-image: url(../images/radiation.png);
+                                          }
+                                          
+                                          .team_info_text {
+                                              font-size: 0.875rem;
+                                              text-align: justify;
+                                              text-align-last: center;
+                                              margin-bottom: 20px;
+                                          }
+                                          
+                                          .hov_nav:hover {
+                                              color: #f1ad1d;
+                                              font-weight: 900;
+                                          }
+                                          
+                                          .title_line_bottom {
+                                              width: 60px;
+                                              border-bottom: 3px solid #F1AD1D;
+                                              margin: 15px auto;
+                                          }
+                                          
+                                          .Team_info_title {
+                                              font-size: 1.125rem;
+                                              text-align: center;
+                                              margin-bottom: 20px;
+                                          }
+                                          
+                                          .title_line_black {
+                                              width: 270px;
+                                              border-bottom: 3px solid #333333;
+                                              margin: 52px auto;
+                                          }
+                                          
+                                          .speed {
+                                              background-image: url(../images/speed.png);
+                                              height: 390px;
+                                              background-size: cover;
+                                          }
+                                          
+                                          .back_featured {
+                                              background-image: url(../images/backpage3.png);
+                                              height: 475px;
+                                              background-size: cover;
+                                          }
+                                          
+                                          .logo_featured {
+                                              display: flex;
+                                              justify-content: space-around;
+                                              margin: 0 10%;
+                                          }
+                                          
+                                          .coments {
+                                              display: grid;
+                                              grid-template-columns: 1fr 1fr 1fr;
+                                              column-gap: 30px;
+                                              padding-bottom: 200px;
+                                          }
+                                          
+                                          .coments_border {
+                                              border-left: none;
+                                              border-right: none;
+                                              border-top: 2px solid #F1AD1D;
+                                              padding-left: 0;
+                                              border-bottom: 2px solid #111111;
+                                          }
+                                          
+                                          .coments_photo {
+                                              display: grid;
+                                              grid-template-columns: 56px 1fr;
+                                              grid-template-rows: 44px;
+                                              column-gap: 15px;
+                                              margin-top: 15px;
+                                          }
+                                          
+                                          .coment_texe {
+                                              align-self: end;
+                                              font-size: 0.875rem;
+                                          }
+                                          
+                                          .com_text {
+                                              font-weight: 700;
+                                          }
+                                          
+                                          .button_subscribe {
+                                              background-color: #F1AD1D;
+                                              padding: 19px 45px;
+                                              text-align: center;
+                                              text-decoration: none;
+                                              color: white;
+                                              border-radius: 2px;
+                                          }
+                                          
+                                          .search_margin {
+                                              margin-top: 19px;
+                                          }
+                                          
+                                          .button_subscribe:hover {
+                                              color: black;
+                                          }
+                                          
+                                          .search {
+                                              display: grid;
+                                              grid-template-columns: 586px 170px;
+                                              grid-template-rows: 57px;
+                                              justify-content: center;
+                                              padding-bottom: 177px;
+                                          }
+                                          
+                                          .subscribe {
+                                              width: 550px;
+                                              height: 51px;
+                                              padding-left: 30px;
+                                          }
+                                          
+                                          .title_message {
+                                              background-color: #333333;
+                                              font-size: 1.125rem;
+                                              width: 246px;
+                                              padding: 22px 120px 18px 15px;
+                                              color: white;
+                                              font-weight: 700;
+                                          }
+                                          
+                                          .title_contact {
+                                              padding-right: 40px;
+                                          }
+                                          
+                                          .form_message {
+                                              width: 571px;
+                                          }
+                                          
+                                          .disp_in_bl {
+                                              display: inline-block;
+                                          }
+                                          
+                                          .input_name {
+                                              width: 270px;
+                                              height: 39px;
+                                              padding-left: 10px;
+                                              box-sizing: border-box;
+                                              font-style: italic;
+                                          }
+                                          
+                                          .textarea_message {
+                                              width: 560px;
+                                              height: 172px;
+                                              resize: none;
+                                              padding-left: 10px;
+                                              padding-top: 10px;
+                                              box-sizing: border-box;
+                                              font-style: italic;
+                                          }
+                                          
+                                          .reset {
+                                              width: 30%;
+                                              padding: 16px 30px;
+                                              text-decoration: none;
+                                              color: white;
+                                              font-weight: 700;
+                                              font-size: 1.125rem;
+                                              text-transform: uppercase;
+                                              text-align: center;
+                                              background-color: #F1AD1D;
+                                              cursor: pointer;
+                                              border-radius: 10px;
+                                          }
+                                          
+                                          .reset:hover {
+                                              color: black;
+                                          }
+                                          /*  .button_reset {
+ background-color: #F1AD1D;
+ width: 145px;
+ height: 40px;
+ text-align: center;
+padding-top: 15px;
+}*/
+                                          
+                                          .form_padding {
+                                              margin-bottom: 17px;
+                                          }
+                                          
+                                          .marg_bott {
+                                              margin-bottom: 15px;
+                                          }
+                                          
+                                          .reset_left {
+                                              margin-left: 20px;
+                                          }
+                                          
+                                          .back_little {
+                                              width: 35px;
+                                              height: 32px;
+                                              background-color: #333333;
+                                          }
+                                          
+                                          .padding_img {
+                                              padding: 6px 11px;
+                                          }
+                                          
+                                          .margin_right {
+                                              margin-right: 229px;
+                                          }
+                                          
+                                          .grid_contact {
+                                              display: flex;
+                                              justify-content: space-around;
+                                              padding-bottom: 150px;
+                                          }
+                                          
+                                          .margin_mess_top {
+                                              margin-top: 50px;
+                                          }
+                                          
+                                          .social {
+                                              display: flex;
+                                              justify-content: space-between;
+                                              width: 301px;
+                                          }
+                                          
+                                          .yel_little {
+                                              width: 40px;
+                                              height: 40px;
+                                              background-color: #F1AD1D;
+                                              margin-top: 34px;
+                                          }
+                                          
+                                          .text-decor {
+                                              text-decoration: none;
+                                          }
+                                          
+                                          .img_social {
+                                              padding: 11px 11px
+                                          }
+                                          
+                                          .color_aa {
+                                              color: black;
+                                          }
+                                          
+                                          .color_aa:hover {
+                                              color: #F1AD1D;
+                                          }
+                                          
+                                          .lefting {
+                                              padding-left: 15px
+                                          }
+                                          
+                                          .back_saidbird {
+                                              background-image: url(../images/saidbird.png);
+                                              height: 485px;
+                                              background-size: cover;
+                                          }
+                                          
+                                          .tree {
+                                              background-image: url(../images/Treeback.png);
+                                              height: 400px;
+                                              background-size: cover;
+                                          }
+                                          
+                                          .div_buy {
+                                              padding: 40px 0px;
+                                          }
+                                          
+                                          .tree_tittle {
+                                              color: #ffffff;
+                                              font-size: 1.125rem;
+                                              padding-top: 100px;
+                                          }
+                                          
+                                          .bottm_nav {
+                                              color: black;
+                                              padding: 20px 40px;
+                                              border: 1px solid #000000;
+                                              text-decoration: none;
+                                          }
+                                          
+                                          .bottm_nav:hover {
+                                              background-color: black;
+                                              color: #F1AD1D;
+                                              ;
+                                          }
+                                          
+                                          .foot_foot {
+                                              margin-top: 20px;
+                                              font-weight: 700;
+                                              font-size: 20px;
+                                          }
+                                          
+                                          .copy_foot {
+                                              padding-top: 5px;
+                                              padding-bottom: 40px;
+                                              text-align: center;
+                                          }
+                                          
+                                          .bottom_copy {
+                                              width: 80%;
+                                              margin: 0 auto;
+                                              padding-top: 35px;
+                                          }
+                                          
+                                          .Lysenko {
+                                              text-decoration: none;
+                                              font-size: 20px;
+                                              font-weight: 700;
+                                          }
+                                          
+                                          #buy {
+                                              color: white;
+                                              background-color: hsla(0, 0%, 48%, 0.4);
+                                              border: 1px solid #ffffff;
+                                              padding: 20px 40px;
+                                              font-weight: 700;
+                                          }
+                                          
+                                          #buy:hover {
+                                              color: #F1AD1D;
+                                              border: 1px solid #F1AD1D;
+                                              background-color: hsla(46, 100%, 38%, 0.2);
+                                          }

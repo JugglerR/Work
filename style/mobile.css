@@ -1,0 +1,87 @@
+                                                                        @media screen and (max-width:800px) {
+                                                                        .nechto {
+                                                                            width: 500px;
+                                                                        }
+                                                                        .header_content {
+                                                                            padding: 0;
+                                                                        }
+                                                                        .we_make_blah {
+                                                                            width: 100%;
+                                                                            font-size: 1.5rem;
+                                                                        }
+                                                                        .we_make_blah {
+                                                                            padding: 45px 43px;
+                                                                        }
+                                                                        .we_blah {
+                                                                            padding-right: 0;
+                                                                        }
+                                                                        .sert_nav_h {
+                                                                            display: none;
+                                                                        }
+                                                                        .business_consulting {
+                                                                            grid-template-columns: 1fr;
+                                                                        }
+                                                                        .business_title {
+                                                                            padding-top: 30px;
+                                                                        }
+                                                                        .team {
+                                                                            grid-template-columns: 1fr 1fr;
+                                                                            grid-template-rows: 170px 170px 170px 170px 170px 170px;
+                                                                            padding-bottom: 75px
+                                                                        }
+                                                                        .team_info {
+                                                                            display: none;
+                                                                        }
+                                                                        .logo_featured {
+                                                                            display: none
+                                                                        }
+                                                                        .back_featured {
+                                                                            height: 400px;
+                                                                        }
+                                                                        .coments {
+                                                                            display: none;
+                                                                        }
+                                                                        .tittleFeatured {
+                                                                            display: none;
+                                                                        }
+                                                                        .subscribe {
+                                                                            width: 100%;
+                                                                            box-sizing: border-box
+                                                                        }
+                                                                        .search {
+                                                                            display: block;
+                                                                            padding-bottom: 40px;
+                                                                        }
+                                                                        .button_subscribe {
+                                                                            padding: 16px 40px;
+                                                                            margin: 5px auto;
+                                                                            display: block;
+                                                                        }
+                                                                        .grid_contact {
+                                                                            padding-bottom: 50px;
+                                                                            display: block;
+                                                                        }
+                                                                        .form_message {
+                                                                            width: 100%;
+                                                                        }
+                                                                        .title_message {
+                                                                            padding: 20px;
+                                                                            width: 100%;
+                                                                            box-sizing: border-box
+                                                                        }
+                                                                        .textarea_message {
+                                                                            width: 100%;
+                                                                        }
+                                                                        .input_name {
+                                                                            width: 100%;
+                                                                        }
+                                                                        .reset {
+                                                                            padding: 15px 28px;
+                                                                            border-radius: 7px;
+                                                                        }
+                                                                        .padd_contact {
+                                                                            padding-top: 100px;
+                                                                        }
+                                                                        .social {
+                                                                            width: 100%;
+                                                                        }
